@@ -209,11 +209,12 @@
     }
 }
 
-@media (min-width: 1440px) {
+
+/* @media (min-width: 1440px) {
     .container {
         width: 970px;
     }
-}
+} */
 
 @media (min-width: 1660px) {
     .container {
@@ -222,6 +223,19 @@
     .box-background-user-img {
         margin-top: 0px;
         height: 100px;
+    }
+}
+
+@media (min-width: 1024px) and (min-width: 1440px) {
+    .container {
+        width: 970px;
+    }
+    .box-list {
+        padding: 5px;
+        font-weight: bold;
+    }
+    .content {
+        font-size: 12px
     }
 }
 
