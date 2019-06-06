@@ -1,0 +1,93 @@
+/* index-2 */
+
+.box-goc {
+    margin-top: 225px;
+    float: right;
+    width: 288px;
+    height: 50px;
+}
+
+
+/* button vào thi ngay */
+
+@media ( min-width: 1024px) {
+    .btvtn {
+        width: 100%;
+    }
+}
+
+@media ( min-width: 1440px) {
+    .btvtn {
+        width: 102%;
+    }
+}
+
+@media ( min-width: 768px) {
+    .box-doc {
+        border-right: 2px solid white;
+    }
+}
+
+@media ( min-width: 769px) and (max-width: 2560px) {
+    .box-doc {
+        border-right: 2px solid #b9b6b6;
+    }
+}
+
+.thong-tin p {
+    margin: 20px;
+}
+
+
+/*vòng tròn quang STT*/
+
+.box-stt {
+    border-radius: 50%;
+    border: 2px solid #afaaaa;
+    padding: 15px;
+}
+
+
+/*button xem thêm trang 6*/
+
+@media ( min-width: 1024px) {
+    .xem-them {
+        padding: 0px;
+    }
+}
+
+
+/*chử xanh tiêu đề*/
+
+.tieu-de-xanh {
+    color: #069;
+    font-weight: bold;
+}
+
+
+/*chữ dưới tên trang 6*/
+
+.un-t {
+    font-size: 12px;
+}
+
+@media ( max-width: 768px) {
+    .un-t {
+        padding-left: 0px;
+    }
+}
+
+
+/*end chữ dưới tên trang 6*/
+
+@media(min-width: 768px) {
+    .tieu-de-xanh h1 {
+        font-size: 23px;
+    }
+}
+
+@media ( min-width: 425px) and (max-width: 768px) {
+    .tieu-de-xanh h1 {
+        font-size: 20px;
+    }
+}

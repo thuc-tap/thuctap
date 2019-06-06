@@ -1,0 +1,532 @@
+    /* header-style */
+    
+    .box-header .header .box-create-topic button {
+        border: none;
+        box-shadow: 3px 3px 7px -1px #e47127;
+        font-size: 15px;
+        background: #ff6100;
+        color: #ffffff;
+        outline: none;
+        font-weight: bold;
+    }
+    
+    .box-header .header .box-login button {
+        outline: none;
+        background: none;
+        font-size: 17px;
+        border: none;
+    }
+    
+    .box-header .header .box-login button i {
+        margin-right: 10px;
+    }
+    /* Menu-style */
+    
+    .box-menu {
+        background: #93c47d;
+        position: relative;
+        z-index: 99;
+        margin-top: 15px;
+    }
+    
+    .box-menu-list {
+        margin-bottom: 0px;
+        background: none;
+        border: none;
+        outline: none;
+    }
+    
+    .menu-list {
+        font-weight: bold;
+        background: #93c47d;
+    }
+    
+    .menu-list a {
+        text-decoration: underline;
+    }
+    
+    .menu-list ul li span {
+        text-transform: uppercase;
+        color: #385ec9;
+    }
+    
+    .menu-font-size span {
+        font-size: 13px;
+    }
+    
+    @media (max-width: 768px) {
+        .menu-list {
+            font-size: 13px;
+        }
+        .middle-titel h3 {
+            font-weight: bold;
+            font-size: 14px;
+        }
+    }
+    
+    @media (min-width: 768px) and (max-width: 1439px) {
+        .content ul {
+            font-size: 12px;
+        }
+        .members-img img {
+            height: 49px;
+            width: 49px;
+        }
+    }
+    
+    @media (min-width: 320px) {
+        .exam-content-text {
+            padding-top: 5px;
+        }
+        .exam-text p {
+            font-size: 11px;
+        }
+    }
+    
+    @media (min-width: 320px) and (max-width: 570px) {
+        .box-citation {
+            height: 116px;
+        }
+    }
+    
+    @media (min-width: 571px) {
+        .box-citation {
+            height: 83px;
+        }
+    }
+    
+    @media (min-width: 375px) and (max-width: 2560px) {
+        .exam-content-text {
+            padding-top: 12px;
+        }
+    }
+    
+    @media (min-width: 1024px) and (max-width: 1440px) {
+        .container {
+            width: 970px;
+        }
+        .box-list {
+            padding: 5px;
+        }
+        .content {
+            font-size: 12px;
+        }
+        .members-img img {
+            height: 49px;
+            width: 49px;
+        }
+        .content-member-test p {
+            font-size: 11px;
+        }
+        .box-list-title h4 {
+            font-weight: bold;
+            font-size: 15px;
+        }
+        .box-list-link a {
+            text-align: end;
+            font-size: 12px;
+        }
+        .box-list-link {
+            padding-top: 8px;
+        }
+        .exam-text p {
+            font-size: 13px;
+        }
+    }
+    
+    @media (min-width: 1441px) and (max-width: 2560px) {
+        .members-img img {
+            height: 59px;
+            width: 59px;
+        }
+        .box-list-link a {
+            text-align: end;
+            padding-top: 11px;
+        }
+        .box-list-link {
+            padding-top: 10px;
+        }
+        .exam-text p {
+            font-size: 18px;
+        }
+    }
+    /* Body */
+    
+    .box-body {
+        margin-bottom: 20px;
+    }
+    
+    .slide-show {
+        border: 1px solid #dedede;
+    }
+    
+    .test-box {
+        height: 350px;
+        border: 1px solid #dedede;
+    }
+    
+    .box-list {
+        color: #069;
+        padding: 7px;
+    }
+    
+    .box-list h4 {
+        font-weight: bold;
+    }
+    
+    .content ul {
+        padding-left: 24px;
+    }
+    
+    .content a {
+        color: #069;
+        text-decoration: none;
+    }
+    /* box-citation */
+    
+    .box-citation {
+        background: whitesmoke;
+        text-align: center;
+    }
+    
+    .box-citation p {
+        color: #14928e;
+        font-size: 18px;
+    }
+    
+    .citation p span {
+        font-size: 18pt;
+        color: black;
+    }
+    
+    .citation .smtitle {
+        font-size: 7pt;
+        color: grey;
+    }
+    
+    .citation {
+        padding-top: 7px;
+    }
+    /* Body-middle */
+    
+    .body-middle a {
+        text-decoration: underline;
+    }
+    
+    .middle-titel a {
+        text-decoration: none;
+        color: #069;
+    }
+    
+    .body-middle-titel {
+        color: #069;
+    }
+    
+    .body-middle-link {
+        text-align: end;
+        padding-top: 55px;
+    }
+    
+    .box-members {
+        color: #069;
+        margin-top: 20px;
+        border: 1px solid #dedede;
+    }
+    
+    .box-list-members-2 h4 {
+        font-weight: bold;
+    }
+    
+    .box-list-members h4 {
+        font-size: 17px;
+        font-weight: bold;
+        text-align: center;
+    }
+    
+    .content-members {
+        margin-bottom: 7px;
+        margin-top: 7px;
+    }
+    
+    .content-members a {
+        text-decoration: none;
+        color: #069;
+    }
+    
+    .middle-link {
+        font-weight: bold;
+    }
+    
+    .box-exam {
+        border: 1px solid #dedede;
+    }
+    
+    .exam h5 {
+        font-size: 16px;
+        font-weight: bold;
+    }
+    
+    .exam {
+        color: #069;
+        padding: 14px;
+    }
+    
+    .exam-free {
+        border-radius: 25px;
+        text-align: center;
+        border: 1px solid #dedede;
+    }
+    
+    .exam-free p {
+        margin: 0;
+        padding: 3px;
+    }
+    
+    .exam-text {
+        text-align: center;
+        border: 2px solid;
+    }
+    
+    .exam-text p {
+        margin: 0;
+        padding: 4px;
+    }
+    
+    .tp-coin {
+        background: url(http://bank.tigerweb.vn/uploads/cms/img/coin-30.png) no-repeat;
+        background-size: auto 100%;
+        padding-left: 25px;
+        margin-left: 5px;
+    }
+    
+    .profile-follow .btn-primary {
+        border-color: #1fb6ff;
+        background-color: #1fb6ff;
+    }
+    
+    .profile-follow .btn {
+        padding: 2px 12px;
+    }
+    
+    .profile-follow {
+        float: right;
+    }
+    
+    .btn-primary:hover {
+        color: #fff;
+        background-color: #286090;
+        border-color: #204d74;
+    }
+    
+    .content_item_author {
+        color: #aaa;
+    }
+    
+    .content_item_description {
+        padding-top: 7px;
+    }
+    
+    .exam-img {
+        margin-top: 13px;
+    }
+    
+    .exam-img img {
+        height: 100px;
+        width: 100px;
+    }
+    
+    .exam-content-text {
+        padding-right: 11px;
+    }
+    
+    .exam-img-user {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        text-align: center;
+        vertical-align: middle;
+        background: url(https://storage.dekiru.vn/Data/2018/08/13/hk1-636697525048722350.jpg) 0% 0% / 50px 50px no-repeat scroll content-box border-box transparent;
+    }
+    
+    .exam-user-number {
+        color: gray;
+        width: 48px;
+        height: 48px;
+        background-color: #ececec;
+        display: inline-block;
+        text-align: center;
+        border-radius: 50%;
+        line-height: 50px;
+    }
+    /* btn-hover */
+    
+    .box-login a span:hover {
+        color: red;
+    }
+    
+    .content ul:hover a {
+        color: red;
+    }
+    
+    .middle-titel p:hover {
+        color: red;
+    }
+    
+    .exam h5:hover {
+        color: red;
+    }
+    
+    .exam p:hover {
+        color: red;
+    }
+    
+    .content-members a:hover {
+        color: red;
+    }
+    /* box-footer */
+    
+    .box-footer {
+        background: #e4e4e4;
+    }
+    
+    .footer-titel {
+        color: #069;
+    }
+    
+    .footer-titel-2 a {
+        color: #069;
+        text-decoration: none;
+    }
+    
+    .footer-titel-2 a:hover {
+        color: red;
+    }
+    /* end-index */
+    /* index-2 */
+    
+    .box-goc {
+        margin-top: 225px;
+        float: right;
+        width: 288px;
+        height: 50px;
+    }
+    /* button vào thi ngay */
+    
+    @media ( min-width: 1024px) {
+        .btvtn {
+            width: 100%;
+        }
+    }
+    
+    @media ( min-width: 1440px) {
+        .btvtn {
+            width: 102%;
+        }
+    }
+    
+    @media ( max-width: 768px) {
+        .box-doc {
+            border-right: 2px solid white;
+        }
+    }
+    
+    @media ( min-width: 769px) and (max-width: 2560px) {
+        .box-doc {
+            border-right: 2px solid #b9b6b6;
+        }
+    }
+    
+    .thong-tin p {
+        margin: 20px;
+    }
+    /*vòng tròn quang STT*/
+    
+    .box-stt {
+        border-radius: 50%;
+        border: 2px solid #afaaaa;
+        padding: 15px;
+    }
+    /*button xem thêm trang 6*/
+    
+    @media ( min-width: 1024px) {
+        .xem-them {
+            padding: 0px;
+        }
+    }
+    /*chử xanh tiêu đề*/
+    
+    .tieu-de-xanh {
+        color: #069;
+        font-weight: bold;
+    }
+    /*chữ dưới tên trang 6*/
+    
+    .un-t {
+        font-size: 12px;
+    }
+    
+    @media ( max-width: 768px) {
+        .un-t {
+            padding-left: 0px;
+        }
+    }
+    /*end chữ dưới tên trang 6*/
+    
+    .number-user {
+        width: 44px;
+        margin-top: -7px;
+        text-align: center;
+        border: 1px solid;
+        border-radius: 50%;
+    }
+    
+    .number-user-1 {
+        padding: 8px;
+    }
+    
+    .number-user-1 span {
+        font-size: 18px;
+    }
+    
+    .rank-text {
+        font-size: 11px
+    }
+    /* 
+    width: 33px;
+    margin-top: 4px;
+    text-align: center;
+    border: 1px solid;
+    border-radius: 50%; */
+    /* index-6 */
+    
+    .list-text-rank p span {
+        color: red;
+    }
+    
+    @media ( min-width: 320px) and (max-width: 426px) {
+        .number-user {
+            width: 33px;
+            margin-top: 4px;
+            text-align: center;
+            border: 1px solid;
+            border-radius: 50%;
+        }
+        .number-user-1 {
+            padding: 3px;
+        }
+        .list-number-user {
+            padding: 0;
+        }
+    }
+    
+    @media(min-width: 768px) {
+        .tieu-de-xanh h1 {
+            font-size: 23px;
+        }
+    }
+    
+    @media ( min-width: 425px) and (max-width: 768px) {
+        .tieu-de-xanh h1 {
+            font-size: 20px;
+        }
+    }
