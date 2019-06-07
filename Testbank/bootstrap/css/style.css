@@ -308,10 +308,6 @@
         padding: 2px 12px;
     }
     
-    .profile-follow {
-        float: right;
-    }
-    
     .btn-primary:hover {
         color: #fff;
         background-color: #286090;
@@ -517,6 +513,9 @@
         .list-number-user {
             padding: 0;
         }
+        .profile-follow {
+            float: left;
+        }
     }
     
     @media(min-width: 768px) {
@@ -528,5 +527,8 @@
     @media ( min-width: 425px) and (max-width: 768px) {
         .tieu-de-xanh h1 {
             font-size: 20px;
+        }
+        .profile-follow {
+            float: left;
         }
     }
