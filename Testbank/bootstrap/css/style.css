@@ -127,7 +127,8 @@
             font-size: 12px;
         }
         .box-list-link {
-            padding-top: 8px;
+            padding-bottom: 8px;
+            text-align: center;
         }
         .exam-text p {
             font-size: 13px;
@@ -144,7 +145,8 @@
             padding-top: 11px;
         }
         .box-list-link {
-            padding-top: 10px;
+            text-align: center;
+            padding-bottom: 10px;
         }
         .exam-text p {
             font-size: 18px;
@@ -234,11 +236,13 @@
     }
     
     .box-list-members-2 h4 {
+        font-size: 14px;
         font-weight: bold;
+        text-align: center;
     }
     
     .box-list-members h4 {
-        font-size: 17px;
+        font-size: 14px;
         font-weight: bold;
         text-align: center;
     }
